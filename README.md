@@ -1,4 +1,4 @@
-# AI Voice Clone
+# Chris Audio AI
 
 This project is a real-time voice-based AI assistant that uses:
 - **Deepgram** for speech-to-text
