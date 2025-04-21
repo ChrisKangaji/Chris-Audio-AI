@@ -21,6 +21,11 @@ This project is a real-time voice-based AI assistant that uses:
 
 ## Setup
 1. Clone the repo
+3. Create a .env file (.env.apiKeys) for hold all your api keys na dinclude the following:
+    OPENAI_API_KEY=your_openai_api_key
+    DEEPGRAM_API_KEY=your_deepgram_api_key
+    ELEVENLABS_API_KEY=your_elevenlabs_api_key
+    ELEVENLABS_VOICE_ID=your_cloned_voice_id
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
