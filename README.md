@@ -10,10 +10,17 @@ This project is a real-time voice-based AI assistant that uses:
 - Conversational responses powered by GPT-4
 - Outputs voice responses in your own cloned voice
 
+## Required Packages
+- **openai** Official OpenAI SDK
+- **requests** Standard HTTP library
+- **python-dotenv** For loading .env config files
+- **deepgram-sdk** Deepgram's official Python SDK
+- **websocket-client** Required by Deepgram for real-time audio
+- **sounddevice** Lets you record from your microphone and play audio to your speakers in real-time
+- **numpy** Convert audio chunks (bytes) into playable waveforms and stream live audio as it’s generated
+
 ## Setup
 1. Clone the repo
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
-sudo apt update && sudo apt install python3-pip -y
-apt install python3-xyz

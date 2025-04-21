@@ -3,5 +3,5 @@ requests
 python-dotenv
 deepgram-sdk
 websocket-client
-playsound
-pyaudio
+sounddevice
+numpy
