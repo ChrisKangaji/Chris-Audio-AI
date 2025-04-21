@@ -16,7 +16,7 @@ This project is a real-time voice-based AI assistant that uses:
 - **python-dotenv** For loading .env config files
 - **deepgram-sdk** Deepgram's official Python SDK
 - **websocket-client** Required by Deepgram for real-time audio
-- **sounddevice** Lets you record from your microphone and play audio to your speakers in real-time
+- **sounddevice** Lets you record from your microphone and play audio to your speakers in real-time (sounddevice might need portaudio dev packages)
 - **numpy** Convert audio chunks (bytes) into playable waveforms and stream live audio as it’s generated
 
 ## Setup
